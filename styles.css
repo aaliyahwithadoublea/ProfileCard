@@ -39,13 +39,15 @@ p {
     font-size: 1rem;
 }
 
-.social-links a {
+.social-links a,
+p[data-testid="emailAddress"] a {
     text-decoration: none;
-    color: #333;
+    color: #333;  
     margin: 0 5px;
 }
 
-.social-links a:hover {
+.social-links a:hover,
+p[data-testid="emailAddress"] a:hover {
     text-decoration: underline;
 }
 
